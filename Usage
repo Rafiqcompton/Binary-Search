@@ -1,0 +1,5 @@
+
+arr = [2, 3, 4, 10, 40]
+target = 10
+result = binary_search(arr, 0, len(arr)-1, target)
+print("Element is present at index", result)
